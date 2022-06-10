@@ -1,5 +1,5 @@
-export function wave(str: string) {
-	let res = [];
+export function wave(str: string): string[] {
+	let res: string[];
 
 	for (let i = 0; i < str.length; i++) {
 		if (str[i] == ' ') continue;
